@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, inital-scale=1.0" />
+    <title>Rent a Car</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+      <div class="nav container">
+        
+            <a href="#" class="logo">Rent-A-Car</a>
+    
+        <div class="navbar">
+            <a href="#home" class="nav-link">Početna</a>
+            <a href="#cars" class="nav-link">Automobili</a>
+            <a href="#destination" class="nav-link">Destinacije</a>
+            <a href="#reviews" class="nav-link">Pregledi</a>
+            <a href="about.html" class="nav-link">O nama</a>
+            
+        </div>
+        
+      </div>
+    </header>
+    <section class="home" id="home">
+        <h1 class="home-title">BMW</h1>
+        <div class="home-content container">
+            <div class="home-data">
+                <div class="home-box border-home">
+                    <h3>M340i</h3>
+                    <h2>Sedan</h2>
+                </div>
+                <div class="home-box border-home">
+                    <h3>Obrtni Momenat</h3>
+                    <h2>500 Nm</h2>
+                </div>
+                <div class="home-box">
+                    <h3>Snaga</h3>
+                    <h2>369 Ks</h2>
+                </div>
+            </div>
+            <img src="slike/BMW3.png" alt="" class="home-img">
+            <div class="home-btns">
+                <a href="#" class="ride-btn"><i class="ri-car-line"></i>Test Vožnja</a>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="cars container" id="cars">
+        <div class="heading">
+            <span>"LAST MINUTE" PONUDE</span>
+            <h2>Automobili za rentiranje</h2>
+        </div>
+        <div class="cars-content"></div>
+    </section>
+    <section class="work" id="work">
+        <div class="heading container">
+            <span>JEDINSTVENO RENTIRANJE AUTOMOBILA</span>
+            <h2>Potražite, Uporedite, Rezervišite.</h2>
+        </div>
+        <div class="work-container container">
+            
+            <div class="work-box">
+                <i class="ri-medal-line"></i>
+                <h3 class="work-title">Pronađite pravi auto za Vas</h3>
+                <p class="work-description">
+                    Unesite lokaciju i datum kako bi pretražili i uporedili hiljade
+                    automobila dostupnih za rentiranje u preko 300 gradova.
+                </p>
+            </div>
+            
+            <div class="work-box">
+                <i class="ri-bank-card-fill"></i>
+                <h3 class="work-title">Rezervišite po najboljoj ceni</h3>
+                <p class="work-description">
+                    Naše cene su zagarantovano jednake ili niže od cena pri
+                    dolasku! Otkažite besplatno do 24 sata pre dolaska.
+                </p>
+            </div>
+            
+            <div class="work-box">
+                <i class="ri-steering-line"></i>
+                <h3 class="work-title">Uživajte u vožnji</h3>
+                <p class="work-description">
+                    Neka Vam auto bude isporučen ili ga preuzmite u najbližoj kancelariji
+                    za rentiranje. Pokažete vaučer, uzmete ključeve i put pod noge!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="destination" id="destination">
+        <div class="heading container">
+            <span>Top GRADOVI U Evropi</span>
+            <h2>Najbolje Destinacije</h2>
+        </div>
+        <div class="slideshow-container">
+
+            <!-- Slides -->
+            <div class="mySlides fade">
+                <img src="slike/BELGRADE.jpeg" style="width:100%">
+                <h2>Srbija</h2>
+                <p>Beograd</p>
+            </div>
+    
+            <div class="mySlides fade">
+                <img src="slike/BARCA.jpg" style="width:100%">
+                <h2>Španija</h2>
+                <p>Barselona</p>
+            </div>
+    
+            <div class="mySlides fade">
+                <img src="slike/BUDVA.jpg" style="width:100%">
+                <h2>Crna Gora</h2>
+                <p>Budva</p>
+            </div>
+    
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+    
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="heading container">
+            <span>POHVALE</span>
+            <h2>Čujte od naših korisnika</h2>
+        </div>
+        <div class="review-container container">
+            <div class="rev-box">
+              <div class="stars">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+              </div>
+              <p>
+                Savršen kvalitet po pristupačnoj ceni sa odličnim korisničkim servisom!
+                Radujem se budućoj saradnji. 
+              </p>
+              <div class="profile">
+                <img src="slike/OCENA1.jpg" alt="">
+                <div class="profile-text">
+                    <h3 class="name">Marko S.</h3>
+                    <span>1. Maj 2024</span>
+                </div>
+              </div>
+            </div>
+            <div class="rev-box">
+                <div class="stars">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-half-fill"></i>
+                </div>
+                <p>
+                  Veoma lepi automobili visokih performansi! Pravo uživanje u vožnji na 
+                  odličnim destinacijama za normalnu cenu!
+                </p>
+                <div class="profile">
+                  <img src="slike/OCENA2.jpg" alt="">
+                  <div class="profile-text">
+                      <h3 class="name">Srđan J.</h3>
+                      <span>28. Mart 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="rev-box">
+                <div class="stars">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-half-fill"></i>
+                </div>
+                <p>
+                  Komforna vožnja po najlepšim gradovima u Evropi. Čista desetka!
+                  Jedva čekam da sarađujemo ponovo!
+                </p>
+                <div class="profile">
+                  <img src="slike/OCENA3.jpg" alt="">
+                  <div class="profile-text">
+                      <h3 class="name">Nevena M.</h3>
+                      <span>3. Januar 2024</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">Rent-A-Car</a>
+                <p>Uživajte u pogledu, za volanom.</p>
+                <div class="social">
+                    <a href="#"><i class="ri-twitter-x-line"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-youtube-line"></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>O nama</h3>
+                <a href="#">Kompanija</a>
+                <a href="#">Karijera</a>
+                <a href="#">Investicija</a>
+                <a href="#">Novosti</a>
+            </div>
+            <div class="footer-box">
+                <h3>Automobili</h3>
+                <a href="#">Sedan</a>
+                <a href="#">Sportski</a>
+                <a href="#">SUV</a>
+                <a href="#">Hatchback</a>
+                <a href="#">Vidi sve</a>
+            </div>
+            <div class="footer-box">
+                <h3>Ponude</h3>
+                <a href="#">Pošiljke</a>
+                <a href="#">Razmene</a>
+                <a href="#">Osiguranje</a>
+                <a href="#">Servisi</a>
+            </div>
+        </div>
+    </section>
+    <p class="copyright">&#169; Rent-A-Car D.O.O</p>
+    <script src="js/main.js"></script>
+</body>
+</html>
